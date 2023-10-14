@@ -21,7 +21,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm publish to npm
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -33,6 +33,6 @@ jobs:
 
       - run: npm ci
 
-      - run: npm publish to github
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
