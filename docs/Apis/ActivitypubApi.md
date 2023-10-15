@@ -22,7 +22,7 @@ Returns the Person actor for a user
 
 ### Return type
 
-[**ActivityPub**](../models/ActivityPub.md)
+[**ActivityPub**](../Models/ActivityPub.md)
 
 ### Authorization
 

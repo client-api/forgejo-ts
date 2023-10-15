@@ -3,10 +3,10 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-| **name** | **String** |  | [default to null] |
 | **can\_create\_org\_repo** | **Boolean** |  | [optional] [default to null] |
 | **description** | **String** |  | [optional] [default to null] |
 | **includes\_all\_repositories** | **Boolean** |  | [optional] [default to null] |
+| **name** | **String** |  | [default to null] |
 | **permission** | **String** |  | [optional] [default to null] |
 | **units** | **List** |  | [optional] [default to null] |
 | **units\_map** | **Map** |  | [optional] [default to null] |

@@ -75,11 +75,11 @@ Create a repository
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateRepoOption**](../models/CreateRepoOption.md)|  | [optional] |
+| **body** | [**CreateRepoOption**](../Models/CreateRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -101,7 +101,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**List**](../models/UserSettings.md)
+[**List**](../Models/UserSettings.md)
 
 ### Authorization
 
@@ -144,11 +144,11 @@ Update user settings
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**UserSettingsOptions**](../models/UserSettingsOptions.md)|  | [optional] |
+| **body** | [**UserSettingsOptions**](../Models/UserSettingsOptions.md)|  | [optional] |
 
 ### Return type
 
-[**List**](../models/UserSettings.md)
+[**List**](../Models/UserSettings.md)
 
 ### Authorization
 
@@ -169,11 +169,11 @@ Add email addresses
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateEmailOption**](../models/CreateEmailOption.md)|  | [optional] |
+| **body** | [**CreateEmailOption**](../Models/CreateEmailOption.md)|  | [optional] |
 
 ### Return type
 
-[**List**](../models/Email.md)
+[**List**](../Models/Email.md)
 
 ### Authorization
 
@@ -245,11 +245,11 @@ Create a hook
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateHookOption**](../models/CreateHookOption.md)|  | |
+| **body** | [**CreateHookOption**](../Models/CreateHookOption.md)|  | |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -270,11 +270,11 @@ creates a new OAuth2 application
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateOAuth2ApplicationOptions**](../models/CreateOAuth2ApplicationOptions.md)|  | |
+| **body** | [**CreateOAuth2ApplicationOptions**](../Models/CreateOAuth2ApplicationOptions.md)|  | |
 
 ### Return type
 
-[**OAuth2Application**](../models/OAuth2Application.md)
+[**OAuth2Application**](../Models/OAuth2Application.md)
 
 ### Authorization
 
@@ -296,11 +296,11 @@ Create an access token
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| username of user | [default to null] |
-| **body** | [**CreateAccessTokenOption**](../models/CreateAccessTokenOption.md)|  | [optional] |
+| **body** | [**CreateAccessTokenOption**](../Models/CreateAccessTokenOption.md)|  | [optional] |
 
 ### Return type
 
-[**AccessToken**](../models/AccessToken.md)
+[**AccessToken**](../Models/AccessToken.md)
 
 ### Authorization
 
@@ -477,7 +477,7 @@ Get a GPG key
 
 ### Return type
 
-[**GPGKey**](../models/GPGKey.md)
+[**GPGKey**](../Models/GPGKey.md)
 
 ### Authorization
 
@@ -502,7 +502,7 @@ Get a public key
 
 ### Return type
 
-[**PublicKey**](../models/PublicKey.md)
+[**PublicKey**](../Models/PublicKey.md)
 
 ### Authorization
 
@@ -528,7 +528,7 @@ List the authenticated user&#39;s followers
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -554,7 +554,7 @@ List the users that the authenticated user is following
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -580,7 +580,7 @@ List the authenticated user&#39;s GPG keys
 
 ### Return type
 
-[**List**](../models/GPGKey.md)
+[**List**](../Models/GPGKey.md)
 
 ### Authorization
 
@@ -607,7 +607,7 @@ List the authenticated user&#39;s public keys
 
 ### Return type
 
-[**List**](../models/PublicKey.md)
+[**List**](../Models/PublicKey.md)
 
 ### Authorization
 
@@ -633,7 +633,7 @@ List the repos that the authenticated user owns
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -659,7 +659,7 @@ The repos that the authenticated user has starred
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -685,7 +685,7 @@ List repositories watched by the authenticated user
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -706,11 +706,11 @@ Create a GPG key
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **Form** | [**CreateGPGKeyOption**](../models/CreateGPGKeyOption.md)|  | [optional] |
+| **Form** | [**CreateGPGKeyOption**](../Models/CreateGPGKeyOption.md)|  | [optional] |
 
 ### Return type
 
-[**GPGKey**](../models/GPGKey.md)
+[**GPGKey**](../Models/GPGKey.md)
 
 ### Authorization
 
@@ -731,11 +731,11 @@ Create a public key
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateKeyOption**](../models/CreateKeyOption.md)|  | [optional] |
+| **body** | [**CreateKeyOption**](../Models/CreateKeyOption.md)|  | [optional] |
 
 ### Return type
 
-[**PublicKey**](../models/PublicKey.md)
+[**PublicKey**](../Models/PublicKey.md)
 
 ### Authorization
 
@@ -814,7 +814,7 @@ List the current user&#39;s tracked times
 
 ### Return type
 
-[**List**](../models/TrackedTime.md)
+[**List**](../Models/TrackedTime.md)
 
 ### Authorization
 
@@ -861,7 +861,7 @@ Delete email addresses
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**DeleteEmailOption**](../models/DeleteEmailOption.md)|  | [optional] |
+| **body** | [**DeleteEmailOption**](../Models/DeleteEmailOption.md)|  | [optional] |
 
 ### Return type
 
@@ -937,11 +937,11 @@ Update a hook
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **Long**| id of the hook to update | [default to null] |
-| **body** | [**EditHookOption**](../models/EditHookOption.md)|  | [optional] |
+| **body** | [**EditHookOption**](../Models/EditHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -966,7 +966,7 @@ Get a user
 
 ### Return type
 
-[**User**](../models/User.md)
+[**User**](../Models/User.md)
 
 ### Authorization
 
@@ -988,7 +988,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**User**](../models/User.md)
+[**User**](../Models/User.md)
 
 ### Authorization
 
@@ -1013,7 +1013,7 @@ Get a user&#39;s heatmap
 
 ### Return type
 
-[**List**](../models/UserHeatmapData.md)
+[**List**](../Models/UserHeatmapData.md)
 
 ### Authorization
 
@@ -1038,7 +1038,7 @@ Get a hook
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -1063,7 +1063,7 @@ get an OAuth2 Application
 
 ### Return type
 
-[**OAuth2Application**](../models/OAuth2Application.md)
+[**OAuth2Application**](../Models/OAuth2Application.md)
 
 ### Authorization
 
@@ -1089,7 +1089,7 @@ List the authenticated user&#39;s oauth2 applications
 
 ### Return type
 
-[**List**](../models/OAuth2Application.md)
+[**List**](../Models/OAuth2Application.md)
 
 ### Authorization
 
@@ -1115,7 +1115,7 @@ Get list of all existing stopwatches
 
 ### Return type
 
-[**List**](../models/StopWatch.md)
+[**List**](../Models/StopWatch.md)
 
 ### Authorization
 
@@ -1142,7 +1142,7 @@ List the authenticated user&#39;s access tokens
 
 ### Return type
 
-[**List**](../models/AccessToken.md)
+[**List**](../Models/AccessToken.md)
 
 ### Authorization
 
@@ -1171,7 +1171,7 @@ List a user&#39;s activity feeds
 
 ### Return type
 
-[**List**](../models/Activity.md)
+[**List**](../Models/Activity.md)
 
 ### Authorization
 
@@ -1197,7 +1197,7 @@ List the authenticated user&#39;s blocked users
 
 ### Return type
 
-[**List**](../models/BlockedUser.md)
+[**List**](../Models/BlockedUser.md)
 
 ### Authorization
 
@@ -1219,7 +1219,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**List**](../models/Email.md)
+[**List**](../Models/Email.md)
 
 ### Authorization
 
@@ -1246,7 +1246,7 @@ List the given user&#39;s followers
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -1273,7 +1273,7 @@ List the users that the given user is following
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -1300,7 +1300,7 @@ List the given user&#39;s GPG keys
 
 ### Return type
 
-[**List**](../models/GPGKey.md)
+[**List**](../Models/GPGKey.md)
 
 ### Authorization
 
@@ -1326,7 +1326,7 @@ List the authenticated user&#39;s webhooks
 
 ### Return type
 
-[**List**](../models/Hook.md)
+[**List**](../Models/Hook.md)
 
 ### Authorization
 
@@ -1354,7 +1354,7 @@ List the given user&#39;s public keys
 
 ### Return type
 
-[**List**](../models/PublicKey.md)
+[**List**](../Models/PublicKey.md)
 
 ### Authorization
 
@@ -1381,7 +1381,7 @@ List the repos owned by the given user
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1408,7 +1408,7 @@ The repos that the given user has starred
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1435,7 +1435,7 @@ List the repositories watched by a user
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1461,7 +1461,7 @@ List all the teams a user belongs to
 
 ### Return type
 
-[**List**](../models/Team.md)
+[**List**](../Models/Team.md)
 
 ### Authorization
 
@@ -1489,7 +1489,7 @@ Search for users
 
 ### Return type
 
-[**userSearch_200_response**](../models/userSearch_200_response.md)
+[**userSearch_200_response**](../Models/userSearch_200_response.md)
 
 ### Authorization
 
@@ -1536,11 +1536,11 @@ update an OAuth2 Application, this includes regenerating the client secret
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **Long**| application to be updated | [default to null] |
-| **body** | [**CreateOAuth2ApplicationOptions**](../models/CreateOAuth2ApplicationOptions.md)|  | |
+| **body** | [**CreateOAuth2ApplicationOptions**](../Models/CreateOAuth2ApplicationOptions.md)|  | |
 
 ### Return type
 
-[**OAuth2Application**](../models/OAuth2Application.md)
+[**OAuth2Application**](../Models/OAuth2Application.md)
 
 ### Authorization
 
@@ -1562,7 +1562,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**GPGKey**](../models/GPGKey.md)
+[**GPGKey**](../Models/GPGKey.md)
 
 ### Authorization
 

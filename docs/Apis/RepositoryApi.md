@@ -163,7 +163,7 @@ Accept a repo transfer
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -184,11 +184,11 @@ Create a repository
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateRepoOption**](../models/CreateRepoOption.md)|  | [optional] |
+| **body** | [**CreateRepoOption**](../Models/CreateRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -211,11 +211,11 @@ Fork a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo to fork | [default to null] |
 | **repo** | **String**| name of the repo to fork | [default to null] |
-| **body** | [**CreateForkOption**](../models/CreateForkOption.md)|  | [optional] |
+| **body** | [**CreateForkOption**](../Models/CreateForkOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -238,11 +238,11 @@ Create a repository using a template
 |------------- | ------------- | ------------- | -------------|
 | **template\_owner** | **String**| name of the template repository owner | [default to null] |
 | **template\_repo** | **String**| name of the template repository | [default to null] |
-| **body** | [**GenerateRepoOption**](../models/GenerateRepoOption.md)|  | [optional] |
+| **body** | [**GenerateRepoOption**](../Models/GenerateRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -269,7 +269,7 @@ Gets the tag object of an annotated tag (not lightweight tags)
 
 ### Return type
 
-[**AnnotatedTag**](../models/AnnotatedTag.md)
+[**AnnotatedTag**](../Models/AnnotatedTag.md)
 
 ### Authorization
 
@@ -296,7 +296,7 @@ Gets the blob of a repository.
 
 ### Return type
 
-[**GitBlobResponse**](../models/GitBlobResponse.md)
+[**GitBlobResponse**](../Models/GitBlobResponse.md)
 
 ### Authorization
 
@@ -326,7 +326,7 @@ Gets the tree of a repository.
 
 ### Return type
 
-[**GitTreeResponse**](../models/GitTreeResponse.md)
+[**GitTreeResponse**](../Models/GitTreeResponse.md)
 
 ### Authorization
 
@@ -354,7 +354,7 @@ List a repository&#39;s forks
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -380,7 +380,7 @@ Reject a repo transfer
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -404,7 +404,7 @@ Add a collaborator to a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **collaborator** | **String**| username of the collaborator to add | [default to null] |
-| **body** | [**AddCollaboratorOption**](../models/AddCollaboratorOption.md)|  | [optional] |
+| **body** | [**AddCollaboratorOption**](../Models/AddCollaboratorOption.md)|  | [optional] |
 
 ### Return type
 
@@ -431,11 +431,11 @@ add a push mirror to the repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreatePushMirrorOption**](../models/CreatePushMirrorOption.md)|  | [optional] |
+| **body** | [**CreatePushMirrorOption**](../Models/CreatePushMirrorOption.md)|  | [optional] |
 
 ### Return type
 
-[**PushMirror**](../models/PushMirror.md)
+[**PushMirror**](../Models/PushMirror.md)
 
 ### Authorization
 
@@ -512,11 +512,11 @@ Apply diff patch to repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**UpdateFileOptions**](../models/UpdateFileOptions.md)|  | |
+| **body** | [**UpdateFileOptions**](../Models/UpdateFileOptions.md)|  | |
 
 ### Return type
 
-[**FileResponse**](../models/FileResponse.md)
+[**FileResponse**](../Models/FileResponse.md)
 
 ### Authorization
 
@@ -566,11 +566,11 @@ Modify multiple files in a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**ChangeFilesOptions**](../models/ChangeFilesOptions.md)|  | |
+| **body** | [**ChangeFilesOptions**](../Models/ChangeFilesOptions.md)|  | |
 
 ### Return type
 
-[**FilesResponse**](../models/FilesResponse.md)
+[**FilesResponse**](../Models/FilesResponse.md)
 
 ### Authorization
 
@@ -624,7 +624,7 @@ Check if a team is assigned to a repository
 
 ### Return type
 
-[**Team**](../models/Team.md)
+[**Team**](../Models/Team.md)
 
 ### Authorization
 
@@ -647,11 +647,11 @@ Create a branch
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateBranchRepoOption**](../models/CreateBranchRepoOption.md)|  | [optional] |
+| **body** | [**CreateBranchRepoOption**](../Models/CreateBranchRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Branch**](../models/Branch.md)
+[**Branch**](../Models/Branch.md)
 
 ### Authorization
 
@@ -674,11 +674,11 @@ Create a branch protections for a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateBranchProtectionOption**](../models/CreateBranchProtectionOption.md)|  | [optional] |
+| **body** | [**CreateBranchProtectionOption**](../Models/CreateBranchProtectionOption.md)|  | [optional] |
 
 ### Return type
 
-[**BranchProtection**](../models/BranchProtection.md)
+[**BranchProtection**](../Models/BranchProtection.md)
 
 ### Authorization
 
@@ -702,11 +702,11 @@ Create a file in a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **filepath** | **String**| path of the file to create | [default to null] |
-| **body** | [**CreateFileOptions**](../models/CreateFileOptions.md)|  | |
+| **body** | [**CreateFileOptions**](../Models/CreateFileOptions.md)|  | |
 
 ### Return type
 
-[**FileResponse**](../models/FileResponse.md)
+[**FileResponse**](../Models/FileResponse.md)
 
 ### Authorization
 
@@ -729,11 +729,11 @@ Create a hook
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateHookOption**](../models/CreateHookOption.md)|  | [optional] |
+| **body** | [**CreateHookOption**](../Models/CreateHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -756,11 +756,11 @@ Add a key to a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateKeyOption**](../models/CreateKeyOption.md)|  | [optional] |
+| **body** | [**CreateKeyOption**](../Models/CreateKeyOption.md)|  | [optional] |
 
 ### Return type
 
-[**DeployKey**](../models/DeployKey.md)
+[**DeployKey**](../Models/DeployKey.md)
 
 ### Authorization
 
@@ -783,11 +783,11 @@ Create a pull request
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreatePullRequestOption**](../models/CreatePullRequestOption.md)|  | [optional] |
+| **body** | [**CreatePullRequestOption**](../Models/CreatePullRequestOption.md)|  | [optional] |
 
 ### Return type
 
-[**PullRequest**](../models/PullRequest.md)
+[**PullRequest**](../Models/PullRequest.md)
 
 ### Authorization
 
@@ -811,11 +811,11 @@ Create a review to an pull request
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request | [default to null] |
-| **body** | [**CreatePullReviewOptions**](../models/CreatePullReviewOptions.md)|  | |
+| **body** | [**CreatePullReviewOptions**](../Models/CreatePullReviewOptions.md)|  | |
 
 ### Return type
 
-[**PullReview**](../models/PullReview.md)
+[**PullReview**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -839,11 +839,11 @@ create review requests for a pull request
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request | [default to null] |
-| **body** | [**PullReviewRequestOptions**](../models/PullReviewRequestOptions.md)|  | |
+| **body** | [**PullReviewRequestOptions**](../Models/PullReviewRequestOptions.md)|  | |
 
 ### Return type
 
-[**List**](../models/PullReview.md)
+[**List**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -866,11 +866,11 @@ Create a release
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateReleaseOption**](../models/CreateReleaseOption.md)|  | [optional] |
+| **body** | [**CreateReleaseOption**](../Models/CreateReleaseOption.md)|  | [optional] |
 
 ### Return type
 
-[**Release**](../models/Release.md)
+[**Release**](../Models/Release.md)
 
 ### Authorization
 
@@ -899,7 +899,7 @@ Create a release attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -923,11 +923,11 @@ Create a commit status
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **sha** | **String**| sha of the commit | [default to null] |
-| **body** | [**CreateStatusOption**](../models/CreateStatusOption.md)|  | [optional] |
+| **body** | [**CreateStatusOption**](../Models/CreateStatusOption.md)|  | [optional] |
 
 ### Return type
 
-[**CommitStatus**](../models/CommitStatus.md)
+[**CommitStatus**](../Models/CommitStatus.md)
 
 ### Authorization
 
@@ -950,11 +950,11 @@ Create a new git tag in a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateTagOption**](../models/CreateTagOption.md)|  | [optional] |
+| **body** | [**CreateTagOption**](../Models/CreateTagOption.md)|  | [optional] |
 
 ### Return type
 
-[**Tag**](../models/Tag.md)
+[**Tag**](../Models/Tag.md)
 
 ### Authorization
 
@@ -977,11 +977,11 @@ Create a wiki page
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateWikiPageOptions**](../models/CreateWikiPageOptions.md)|  | [optional] |
+| **body** | [**CreateWikiPageOptions**](../Models/CreateWikiPageOptions.md)|  | [optional] |
 
 ### Return type
 
-[**WikiPage**](../models/WikiPage.md)
+[**WikiPage**](../Models/WikiPage.md)
 
 ### Authorization
 
@@ -1112,11 +1112,11 @@ Delete a file in a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **filepath** | **String**| path of the file to delete | [default to null] |
-| **body** | [**DeleteFileOptions**](../models/DeleteFileOptions.md)|  | |
+| **body** | [**DeleteFileOptions**](../Models/DeleteFileOptions.md)|  | |
 
 ### Return type
 
-[**FileDeleteResponse**](../models/FileDeleteResponse.md)
+[**FileDeleteResponse**](../Models/FileDeleteResponse.md)
 
 ### Authorization
 
@@ -1249,7 +1249,7 @@ cancel review requests for a pull request
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request | [default to null] |
-| **body** | [**PullReviewRequestOptions**](../models/PullReviewRequestOptions.md)|  | |
+| **body** | [**PullReviewRequestOptions**](../Models/PullReviewRequestOptions.md)|  | |
 
 ### Return type
 
@@ -1495,11 +1495,11 @@ Dismiss a review for a pull request
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request | [default to null] |
 | **id** | **Long**| id of the review | [default to null] |
-| **body** | [**DismissPullReviewOptions**](../models/DismissPullReviewOptions.md)|  | |
+| **body** | [**DismissPullReviewOptions**](../Models/DismissPullReviewOptions.md)|  | |
 
 ### Return type
 
-[**PullReview**](../models/PullReview.md)
+[**PullReview**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -1579,11 +1579,11 @@ Edit a repository&#39;s properties. Only fields that are set will be changed.
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo to edit | [default to null] |
 | **repo** | **String**| name of the repo to edit | [default to null] |
-| **body** | [**EditRepoOption**](../models/EditRepoOption.md)| Properties of a repo that you can edit | [optional] |
+| **body** | [**EditRepoOption**](../Models/EditRepoOption.md)| Properties of a repo that you can edit | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1607,11 +1607,11 @@ Edit a branch protections for a repository. Only fields that are set will be cha
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **name** | **String**| name of protected branch | [default to null] |
-| **body** | [**EditBranchProtectionOption**](../models/EditBranchProtectionOption.md)|  | [optional] |
+| **body** | [**EditBranchProtectionOption**](../Models/EditBranchProtectionOption.md)|  | [optional] |
 
 ### Return type
 
-[**BranchProtection**](../models/BranchProtection.md)
+[**BranchProtection**](../Models/BranchProtection.md)
 
 ### Authorization
 
@@ -1635,11 +1635,11 @@ Edit a Git hook in a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **String**| id of the hook to get | [default to null] |
-| **body** | [**EditGitHookOption**](../models/EditGitHookOption.md)|  | [optional] |
+| **body** | [**EditGitHookOption**](../Models/EditGitHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**GitHook**](../models/GitHook.md)
+[**GitHook**](../Models/GitHook.md)
 
 ### Authorization
 
@@ -1663,11 +1663,11 @@ Edit a hook in a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| index of the hook | [default to null] |
-| **body** | [**EditHookOption**](../models/EditHookOption.md)|  | [optional] |
+| **body** | [**EditHookOption**](../Models/EditHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -1691,11 +1691,11 @@ Update a pull request. If using deadline only the date will be taken into accoun
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request to edit | [default to null] |
-| **body** | [**EditPullRequestOption**](../models/EditPullRequestOption.md)|  | [optional] |
+| **body** | [**EditPullRequestOption**](../Models/EditPullRequestOption.md)|  | [optional] |
 
 ### Return type
 
-[**PullRequest**](../models/PullRequest.md)
+[**PullRequest**](../Models/PullRequest.md)
 
 ### Authorization
 
@@ -1719,11 +1719,11 @@ Update a release
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the release to edit | [default to null] |
-| **body** | [**EditReleaseOption**](../models/EditReleaseOption.md)|  | [optional] |
+| **body** | [**EditReleaseOption**](../Models/EditReleaseOption.md)|  | [optional] |
 
 ### Return type
 
-[**Release**](../models/Release.md)
+[**Release**](../Models/Release.md)
 
 ### Authorization
 
@@ -1748,11 +1748,11 @@ Edit a release attachment
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the release | [default to null] |
 | **attachment\_id** | **Long**| id of the attachment to edit | [default to null] |
-| **body** | [**EditAttachmentOptions**](../models/EditAttachmentOptions.md)|  | [optional] |
+| **body** | [**EditAttachmentOptions**](../Models/EditAttachmentOptions.md)|  | [optional] |
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -1776,11 +1776,11 @@ Edit a wiki page
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **pageName** | **String**| name of the page | [default to null] |
-| **body** | [**CreateWikiPageOptions**](../models/CreateWikiPageOptions.md)|  | [optional] |
+| **body** | [**CreateWikiPageOptions**](../Models/CreateWikiPageOptions.md)|  | [optional] |
 
 ### Return type
 
-[**WikiPage**](../models/WikiPage.md)
+[**WikiPage**](../Models/WikiPage.md)
 
 ### Authorization
 
@@ -1806,7 +1806,7 @@ Get a repository
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1840,7 +1840,7 @@ Get a list of all commits from a repository
 
 ### Return type
 
-[**List**](../models/Commit.md)
+[**List**](../Models/Commit.md)
 
 ### Authorization
 
@@ -1893,7 +1893,7 @@ Return all users that have write access and can be assigned to issues
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -1920,7 +1920,7 @@ Retrieve a specific branch from a repository, including its effective branch pro
 
 ### Return type
 
-[**Branch**](../models/Branch.md)
+[**Branch**](../Models/Branch.md)
 
 ### Authorization
 
@@ -1947,7 +1947,7 @@ Get a specific branch protection for the repository
 
 ### Return type
 
-[**BranchProtection**](../models/BranchProtection.md)
+[**BranchProtection**](../Models/BranchProtection.md)
 
 ### Authorization
 
@@ -1972,7 +1972,7 @@ Get a repository by id
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -2001,7 +2001,7 @@ Get a commit&#39;s combined status, by branch/tag/commit reference
 
 ### Return type
 
-[**CombinedStatus**](../models/CombinedStatus.md)
+[**CombinedStatus**](../Models/CombinedStatus.md)
 
 ### Authorization
 
@@ -2029,7 +2029,7 @@ Gets the metadata and contents (if a file) of an entry in a repository, or a lis
 
 ### Return type
 
-[**ContentsResponse**](../models/ContentsResponse.md)
+[**ContentsResponse**](../Models/ContentsResponse.md)
 
 ### Authorization
 
@@ -2056,7 +2056,7 @@ Gets the metadata of all the entries of the root dir
 
 ### Return type
 
-[**List**](../models/ContentsResponse.md)
+[**List**](../Models/ContentsResponse.md)
 
 ### Authorization
 
@@ -2111,7 +2111,7 @@ Get a Git hook
 
 ### Return type
 
-[**GitHook**](../models/GitHook.md)
+[**GitHook**](../Models/GitHook.md)
 
 ### Authorization
 
@@ -2138,7 +2138,7 @@ Get a hook
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -2164,7 +2164,7 @@ Returns the issue config for a repo
 
 ### Return type
 
-[**IssueConfig**](../models/IssueConfig.md)
+[**IssueConfig**](../Models/IssueConfig.md)
 
 ### Authorization
 
@@ -2190,7 +2190,7 @@ Get available issue templates for a repository
 
 ### Return type
 
-[**List**](../models/IssueTemplate.md)
+[**List**](../Models/IssueTemplate.md)
 
 ### Authorization
 
@@ -2217,7 +2217,7 @@ Get a repository&#39;s key by id
 
 ### Return type
 
-[**DeployKey**](../models/DeployKey.md)
+[**DeployKey**](../Models/DeployKey.md)
 
 ### Authorization
 
@@ -2269,7 +2269,7 @@ Gets the most recent non-prerelease, non-draft release of a repository, sorted b
 
 ### Return type
 
-[**Release**](../models/Release.md)
+[**Release**](../Models/Release.md)
 
 ### Authorization
 
@@ -2296,7 +2296,7 @@ Get a note corresponding to a single commit from a repository
 
 ### Return type
 
-[**Note**](../models/Note.md)
+[**Note**](../Models/Note.md)
 
 ### Authorization
 
@@ -2323,7 +2323,7 @@ Get a pull request
 
 ### Return type
 
-[**PullRequest**](../models/PullRequest.md)
+[**PullRequest**](../Models/PullRequest.md)
 
 ### Authorization
 
@@ -2352,7 +2352,7 @@ Get commits for a pull request
 
 ### Return type
 
-[**List**](../models/Commit.md)
+[**List**](../Models/Commit.md)
 
 ### Authorization
 
@@ -2383,7 +2383,7 @@ Get changed files for a pull request
 
 ### Return type
 
-[**List**](../models/ChangedFile.md)
+[**List**](../Models/ChangedFile.md)
 
 ### Authorization
 
@@ -2411,7 +2411,7 @@ Get a specific review for a pull request
 
 ### Return type
 
-[**PullReview**](../models/PullReview.md)
+[**PullReview**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -2439,7 +2439,7 @@ Get a specific review for a pull request
 
 ### Return type
 
-[**List**](../models/PullReviewComment.md)
+[**List**](../Models/PullReviewComment.md)
 
 ### Authorization
 
@@ -2466,7 +2466,7 @@ Get push mirror of the repository by remoteName
 
 ### Return type
 
-[**PushMirror**](../models/PushMirror.md)
+[**PushMirror**](../Models/PushMirror.md)
 
 ### Authorization
 
@@ -2549,7 +2549,7 @@ Get a release
 
 ### Return type
 
-[**Release**](../models/Release.md)
+[**Release**](../Models/Release.md)
 
 ### Authorization
 
@@ -2577,7 +2577,7 @@ Get a release attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -2604,7 +2604,7 @@ Get a release by tag name
 
 ### Return type
 
-[**Release**](../models/Release.md)
+[**Release**](../Models/Release.md)
 
 ### Authorization
 
@@ -2631,7 +2631,7 @@ Get repository permissions for a user
 
 ### Return type
 
-[**RepoCollaboratorPermission**](../models/RepoCollaboratorPermission.md)
+[**RepoCollaboratorPermission**](../Models/RepoCollaboratorPermission.md)
 
 ### Authorization
 
@@ -2657,7 +2657,7 @@ Return all users that can be requested to review in this repo
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -2687,7 +2687,7 @@ Get a single commit from a repository
 
 ### Return type
 
-[**Commit**](../models/Commit.md)
+[**Commit**](../Models/Commit.md)
 
 ### Authorization
 
@@ -2714,7 +2714,7 @@ Get the tag of a repository by tag name
 
 ### Return type
 
-[**Tag**](../models/Tag.md)
+[**Tag**](../Models/Tag.md)
 
 ### Authorization
 
@@ -2741,7 +2741,7 @@ Get a wiki page
 
 ### Return type
 
-[**WikiPage**](../models/WikiPage.md)
+[**WikiPage**](../Models/WikiPage.md)
 
 ### Authorization
 
@@ -2769,7 +2769,7 @@ Get revisions of a wiki page
 
 ### Return type
 
-[**WikiCommitList**](../models/WikiCommitList.md)
+[**WikiCommitList**](../Models/WikiCommitList.md)
 
 ### Authorization
 
@@ -2797,7 +2797,7 @@ Get all wiki pages
 
 ### Return type
 
-[**List**](../models/WikiPageMetaData.md)
+[**List**](../Models/WikiPageMetaData.md)
 
 ### Authorization
 
@@ -2826,7 +2826,7 @@ List a repository&#39;s activity feeds
 
 ### Return type
 
-[**List**](../models/Activity.md)
+[**List**](../Models/Activity.md)
 
 ### Authorization
 
@@ -2852,7 +2852,7 @@ Get specified ref or filtered repository&#39;s refs
 
 ### Return type
 
-[**List**](../models/Reference.md)
+[**List**](../Models/Reference.md)
 
 ### Authorization
 
@@ -2878,7 +2878,7 @@ List branch protections for a repository
 
 ### Return type
 
-[**List**](../models/BranchProtection.md)
+[**List**](../Models/BranchProtection.md)
 
 ### Authorization
 
@@ -2906,7 +2906,7 @@ List a repository&#39;s branches
 
 ### Return type
 
-[**List**](../models/Branch.md)
+[**List**](../Models/Branch.md)
 
 ### Authorization
 
@@ -2934,7 +2934,7 @@ List a repository&#39;s collaborators
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -2960,7 +2960,7 @@ List the Git hooks in a repository
 
 ### Return type
 
-[**List**](../models/GitHook.md)
+[**List**](../Models/GitHook.md)
 
 ### Authorization
 
@@ -2987,7 +2987,7 @@ Get specified ref or filtered repository&#39;s refs
 
 ### Return type
 
-[**List**](../models/Reference.md)
+[**List**](../Models/Reference.md)
 
 ### Authorization
 
@@ -3015,7 +3015,7 @@ List the hooks in a repository
 
 ### Return type
 
-[**List**](../models/Hook.md)
+[**List**](../Models/Hook.md)
 
 ### Authorization
 
@@ -3045,7 +3045,7 @@ List a repository&#39;s keys
 
 ### Return type
 
-[**List**](../models/DeployKey.md)
+[**List**](../Models/DeployKey.md)
 
 ### Authorization
 
@@ -3071,7 +3071,7 @@ List a repo&#39;s pinned issues
 
 ### Return type
 
-[**List**](../models/Issue.md)
+[**List**](../Models/Issue.md)
 
 ### Authorization
 
@@ -3097,7 +3097,7 @@ List a repo&#39;s pinned pull requests
 
 ### Return type
 
-[**List**](../models/PullRequest.md)
+[**List**](../Models/PullRequest.md)
 
 ### Authorization
 
@@ -3123,13 +3123,13 @@ List a repo&#39;s pull requests
 | **state** | **String**| State of pull request: open or closed (optional) | [optional] [default to null] [enum: closed, open, all] |
 | **sort** | **String**| Type of sort | [optional] [default to null] [enum: oldest, recentupdate, leastupdate, mostcomment, leastcomment, priority] |
 | **milestone** | **Long**| ID of the milestone | [optional] [default to null] |
-| **labels** | [**List**](../models/Long.md)| Label IDs | [optional] [default to null] |
+| **labels** | [**List**](../Models/Long.md)| Label IDs | [optional] [default to null] |
 | **page** | **Integer**| page number of results to return (1-based) | [optional] [default to null] |
 | **limit** | **Integer**| page size of results | [optional] [default to null] |
 
 ### Return type
 
-[**List**](../models/PullRequest.md)
+[**List**](../Models/PullRequest.md)
 
 ### Authorization
 
@@ -3158,7 +3158,7 @@ List all reviews for a pull request
 
 ### Return type
 
-[**List**](../models/PullReview.md)
+[**List**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -3186,7 +3186,7 @@ Get all push mirrors of the repository
 
 ### Return type
 
-[**List**](../models/PushMirror.md)
+[**List**](../Models/PushMirror.md)
 
 ### Authorization
 
@@ -3213,7 +3213,7 @@ List release&#39;s attachments
 
 ### Return type
 
-[**List**](../models/Attachment.md)
+[**List**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -3244,7 +3244,7 @@ List a repo&#39;s releases
 
 ### Return type
 
-[**List**](../models/Release.md)
+[**List**](../Models/Release.md)
 
 ### Authorization
 
@@ -3272,7 +3272,7 @@ List a repo&#39;s stargazers
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -3303,7 +3303,7 @@ Get a commit&#39;s statuses
 
 ### Return type
 
-[**List**](../models/CommitStatus.md)
+[**List**](../Models/CommitStatus.md)
 
 ### Authorization
 
@@ -3334,7 +3334,7 @@ Get a commit&#39;s statuses, by branch/tag/commit reference
 
 ### Return type
 
-[**List**](../models/CommitStatus.md)
+[**List**](../Models/CommitStatus.md)
 
 ### Authorization
 
@@ -3362,7 +3362,7 @@ List a repo&#39;s watchers
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -3390,7 +3390,7 @@ List a repository&#39;s tags
 
 ### Return type
 
-[**List**](../models/Tag.md)
+[**List**](../Models/Tag.md)
 
 ### Authorization
 
@@ -3416,7 +3416,7 @@ List a repository&#39;s teams
 
 ### Return type
 
-[**List**](../models/Team.md)
+[**List**](../Models/Team.md)
 
 ### Authorization
 
@@ -3444,7 +3444,7 @@ Get list of topics that a repository has
 
 ### Return type
 
-[**TopicName**](../models/TopicName.md)
+[**TopicName**](../Models/TopicName.md)
 
 ### Authorization
 
@@ -3468,7 +3468,7 @@ Merge a pull request
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request to merge | [default to null] |
-| **body** | [**MergePullRequestOption**](../models/MergePullRequestOption.md)|  | [optional] |
+| **body** | [**MergePullRequestOption**](../Models/MergePullRequestOption.md)|  | [optional] |
 
 ### Return type
 
@@ -3493,11 +3493,11 @@ Migrate a remote git repository
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**MigrateRepoOptions**](../models/MigrateRepoOptions.md)|  | [optional] |
+| **body** | [**MigrateRepoOptions**](../Models/MigrateRepoOptions.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -3549,7 +3549,7 @@ Returns if new Issue Pins are allowed
 
 ### Return type
 
-[**NewIssuePinsAllowed**](../models/NewIssuePinsAllowed.md)
+[**NewIssuePinsAllowed**](../Models/NewIssuePinsAllowed.md)
 
 ### Authorization
 
@@ -3643,7 +3643,7 @@ Search for repositories
 
 ### Return type
 
-[**SearchResults**](../models/SearchResults.md)
+[**SearchResults**](../Models/SearchResults.md)
 
 ### Authorization
 
@@ -3694,11 +3694,11 @@ Submit a pending review to an pull request
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the pull request | [default to null] |
 | **id** | **Long**| id of the review | [default to null] |
-| **body** | [**SubmitPullReviewOptions**](../models/SubmitPullReviewOptions.md)|  | |
+| **body** | [**SubmitPullReviewOptions**](../Models/SubmitPullReviewOptions.md)|  | |
 
 ### Return type
 
-[**PullReview**](../models/PullReview.md)
+[**PullReview**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -3757,7 +3757,7 @@ List a repo&#39;s tracked times
 
 ### Return type
 
-[**List**](../models/TrackedTime.md)
+[**List**](../Models/TrackedTime.md)
 
 ### Authorization
 
@@ -3780,11 +3780,11 @@ Transfer a repo ownership
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo to transfer | [default to null] |
 | **repo** | **String**| name of the repo to transfer | [default to null] |
-| **body** | [**TransferRepoOption**](../models/TransferRepoOption.md)| Transfer Options | |
+| **body** | [**TransferRepoOption**](../Models/TransferRepoOption.md)| Transfer Options | |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -3812,7 +3812,7 @@ Cancel to dismiss a review for a pull request
 
 ### Return type
 
-[**PullReview**](../models/PullReview.md)
+[**PullReview**](../Models/PullReview.md)
 
 ### Authorization
 
@@ -3836,11 +3836,11 @@ Update a file in a repository
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **filepath** | **String**| path of the file to update | [default to null] |
-| **body** | [**UpdateFileOptions**](../models/UpdateFileOptions.md)|  | |
+| **body** | [**UpdateFileOptions**](../Models/UpdateFileOptions.md)|  | |
 
 ### Return type
 
-[**FileResponse**](../models/FileResponse.md)
+[**FileResponse**](../Models/FileResponse.md)
 
 ### Authorization
 
@@ -3891,7 +3891,7 @@ Replace list of topics for a repository
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**RepoTopicOptions**](../models/RepoTopicOptions.md)|  | [optional] |
+| **body** | [**RepoTopicOptions**](../Models/RepoTopicOptions.md)|  | [optional] |
 
 ### Return type
 
@@ -3921,7 +3921,7 @@ Returns the validation information for a issue config
 
 ### Return type
 
-[**IssueConfigValidation**](../models/IssueConfigValidation.md)
+[**IssueConfigValidation**](../Models/IssueConfigValidation.md)
 
 ### Authorization
 
@@ -3948,7 +3948,7 @@ search topics via keyword
 
 ### Return type
 
-[**List**](../models/TopicResponse.md)
+[**List**](../Models/TopicResponse.md)
 
 ### Authorization
 
@@ -3974,7 +3974,7 @@ Check if the current user is watching a repo
 
 ### Return type
 
-[**WatchInfo**](../models/WatchInfo.md)
+[**WatchInfo**](../Models/WatchInfo.md)
 
 ### Authorization
 
@@ -4026,7 +4026,7 @@ Watch a repo
 
 ### Return type
 
-[**WatchInfo**](../models/WatchInfo.md)
+[**WatchInfo**](../Models/WatchInfo.md)
 
 ### Authorization
 
@@ -4053,7 +4053,7 @@ List a user&#39;s tracked times in a repo
 
 ### Return type
 
-[**List**](../models/TrackedTime.md)
+[**List**](../Models/TrackedTime.md)
 
 ### Authorization
 

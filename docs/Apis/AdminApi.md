@@ -64,11 +64,11 @@ Create a hook
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateHookOption**](../models/CreateHookOption.md)|  | |
+| **body** | [**CreateHookOption**](../Models/CreateHookOption.md)|  | |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -90,11 +90,11 @@ Create an organization
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| username of the user that will own the created organization | [default to null] |
-| **organization** | [**CreateOrgOption**](../models/CreateOrgOption.md)|  | |
+| **organization** | [**CreateOrgOption**](../Models/CreateOrgOption.md)|  | |
 
 ### Return type
 
-[**Organization**](../models/Organization.md)
+[**Organization**](../Models/Organization.md)
 
 ### Authorization
 
@@ -116,11 +116,11 @@ Add a public key on behalf of a user
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| username of the user | [default to null] |
-| **key** | [**CreateKeyOption**](../models/CreateKeyOption.md)|  | [optional] |
+| **key** | [**CreateKeyOption**](../Models/CreateKeyOption.md)|  | [optional] |
 
 ### Return type
 
-[**PublicKey**](../models/PublicKey.md)
+[**PublicKey**](../Models/PublicKey.md)
 
 ### Authorization
 
@@ -142,11 +142,11 @@ Create a repository on behalf of a user
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| username of the user. This user will own the created repository | [default to null] |
-| **repository** | [**CreateRepoOption**](../models/CreateRepoOption.md)|  | |
+| **repository** | [**CreateRepoOption**](../Models/CreateRepoOption.md)|  | |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -167,11 +167,11 @@ Create a user
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**CreateUserOption**](../models/CreateUserOption.md)|  | [optional] |
+| **body** | [**CreateUserOption**](../Models/CreateUserOption.md)|  | [optional] |
 
 ### Return type
 
-[**User**](../models/User.md)
+[**User**](../Models/User.md)
 
 ### Authorization
 
@@ -197,7 +197,7 @@ List cron tasks
 
 ### Return type
 
-[**List**](../models/Cron.md)
+[**List**](../Models/Cron.md)
 
 ### Authorization
 
@@ -347,11 +347,11 @@ Update a hook
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **Long**| id of the hook to update | [default to null] |
-| **body** | [**EditHookOption**](../models/EditHookOption.md)|  | [optional] |
+| **body** | [**EditHookOption**](../Models/EditHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -373,11 +373,11 @@ Edit an existing user
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| username of user to edit | [default to null] |
-| **body** | [**EditUserOption**](../models/EditUserOption.md)|  | [optional] |
+| **body** | [**EditUserOption**](../Models/EditUserOption.md)|  | [optional] |
 
 ### Return type
 
-[**User**](../models/User.md)
+[**User**](../Models/User.md)
 
 ### Authorization
 
@@ -403,7 +403,7 @@ List all emails
 
 ### Return type
 
-[**List**](../models/Email.md)
+[**List**](../Models/Email.md)
 
 ### Authorization
 
@@ -429,7 +429,7 @@ List all organizations
 
 ### Return type
 
-[**List**](../models/Organization.md)
+[**List**](../Models/Organization.md)
 
 ### Authorization
 
@@ -454,7 +454,7 @@ Get a hook
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -480,7 +480,7 @@ List system&#39;s webhooks
 
 ### Return type
 
-[**List**](../models/Hook.md)
+[**List**](../Models/Hook.md)
 
 ### Authorization
 
@@ -502,7 +502,7 @@ Rename a user
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **username** | **String**| existing username of user | [default to null] |
-| **body** | [**RenameUserOption**](../models/RenameUserOption.md)|  | |
+| **body** | [**RenameUserOption**](../Models/RenameUserOption.md)|  | |
 
 ### Return type
 
@@ -533,7 +533,7 @@ Search all emails
 
 ### Return type
 
-[**List**](../models/Email.md)
+[**List**](../Models/Email.md)
 
 ### Authorization
 
@@ -561,7 +561,7 @@ Search users according filter conditions
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 

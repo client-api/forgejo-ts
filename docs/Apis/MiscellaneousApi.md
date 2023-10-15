@@ -32,7 +32,7 @@ Returns information about a gitignore template
 
 ### Return type
 
-[**GitignoreTemplateInfo**](../models/GitignoreTemplateInfo.md)
+[**GitignoreTemplateInfo**](../Models/GitignoreTemplateInfo.md)
 
 ### Authorization
 
@@ -57,7 +57,7 @@ Returns all labels in a template
 
 ### Return type
 
-[**List**](../models/LabelTemplate.md)
+[**List**](../Models/LabelTemplate.md)
 
 ### Authorization
 
@@ -82,7 +82,7 @@ Returns information about a license template
 
 ### Return type
 
-[**LicenseTemplateInfo**](../models/LicenseTemplateInfo.md)
+[**LicenseTemplateInfo**](../Models/LicenseTemplateInfo.md)
 
 ### Authorization
 
@@ -104,7 +104,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**NodeInfo**](../models/NodeInfo.md)
+[**NodeInfo**](../Models/NodeInfo.md)
 
 ### Authorization
 
@@ -148,7 +148,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**ServerVersion**](../models/ServerVersion.md)
+[**ServerVersion**](../Models/ServerVersion.md)
 
 ### Authorization
 
@@ -214,7 +214,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**List**](../models/LicensesTemplateListEntry.md)
+[**List**](../Models/LicensesTemplateListEntry.md)
 
 ### Authorization
 
@@ -235,7 +235,7 @@ Render a markdown document as HTML
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**MarkdownOption**](../models/MarkdownOption.md)|  | [optional] |
+| **body** | [**MarkdownOption**](../Models/MarkdownOption.md)|  | [optional] |
 
 ### Return type
 
@@ -285,7 +285,7 @@ Render a markup document as HTML
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **body** | [**MarkupOption**](../models/MarkupOption.md)|  | [optional] |
+| **body** | [**MarkupOption**](../Models/MarkupOption.md)|  | [optional] |
 
 ### Return type
 

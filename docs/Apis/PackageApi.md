@@ -55,7 +55,7 @@ Gets a package
 
 ### Return type
 
-[**Package**](../models/Package.md)
+[**Package**](../Models/Package.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ Gets all files of a package
 
 ### Return type
 
-[**List**](../models/PackageFile.md)
+[**List**](../Models/PackageFile.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ Gets all packages of an owner
 
 ### Return type
 
-[**List**](../models/Package.md)
+[**List**](../Models/Package.md)
 
 ### Authorization
 

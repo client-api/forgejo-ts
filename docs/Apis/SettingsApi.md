@@ -21,7 +21,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**GeneralAPISettings**](../models/GeneralAPISettings.md)
+[**GeneralAPISettings**](../Models/GeneralAPISettings.md)
 
 ### Authorization
 
@@ -43,7 +43,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**GeneralAttachmentSettings**](../models/GeneralAttachmentSettings.md)
+[**GeneralAttachmentSettings**](../Models/GeneralAttachmentSettings.md)
 
 ### Authorization
 
@@ -65,7 +65,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**GeneralRepoSettings**](../models/GeneralRepoSettings.md)
+[**GeneralRepoSettings**](../Models/GeneralRepoSettings.md)
 
 ### Authorization
 
@@ -87,7 +87,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**GeneralUISettings**](../models/GeneralUISettings.md)
+[**GeneralUISettings**](../Models/GeneralUISettings.md)
 
 ### Authorization
 

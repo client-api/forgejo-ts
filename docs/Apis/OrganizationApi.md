@@ -64,11 +64,11 @@ Create a repository in an organization
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of organization | [default to null] |
-| **body** | [**CreateRepoOption**](../models/CreateRepoOption.md)|  | [optional] |
+| **body** | [**CreateRepoOption**](../Models/CreateRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -90,11 +90,11 @@ Create a repository in an organization
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of organization | [default to null] |
-| **body** | [**CreateRepoOption**](../models/CreateRepoOption.md)|  | [optional] |
+| **body** | [**CreateRepoOption**](../Models/CreateRepoOption.md)|  | [optional] |
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -220,11 +220,11 @@ Create an organization
 
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
-| **organization** | [**CreateOrgOption**](../models/CreateOrgOption.md)|  | |
+| **organization** | [**CreateOrgOption**](../Models/CreateOrgOption.md)|  | |
 
 ### Return type
 
-[**Organization**](../models/Organization.md)
+[**Organization**](../Models/Organization.md)
 
 ### Authorization
 
@@ -246,11 +246,11 @@ Create a hook
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization | [default to null] |
-| **body** | [**CreateHookOption**](../models/CreateHookOption.md)|  | |
+| **body** | [**CreateHookOption**](../Models/CreateHookOption.md)|  | |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -272,11 +272,11 @@ Create a label for an organization
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization | [default to null] |
-| **body** | [**CreateLabelOption**](../models/CreateLabelOption.md)|  | [optional] |
+| **body** | [**CreateLabelOption**](../Models/CreateLabelOption.md)|  | [optional] |
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -298,11 +298,11 @@ Create a team
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization | [default to null] |
-| **body** | [**CreateTeamOption**](../models/CreateTeamOption.md)|  | [optional] |
+| **body** | [**CreateTeamOption**](../Models/CreateTeamOption.md)|  | [optional] |
 
 ### Return type
 
-[**Team**](../models/Team.md)
+[**Team**](../Models/Team.md)
 
 ### Authorization
 
@@ -452,11 +452,11 @@ Edit an organization
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization to edit | [default to null] |
-| **body** | [**EditOrgOption**](../models/EditOrgOption.md)|  | |
+| **body** | [**EditOrgOption**](../Models/EditOrgOption.md)|  | |
 
 ### Return type
 
-[**Organization**](../models/Organization.md)
+[**Organization**](../Models/Organization.md)
 
 ### Authorization
 
@@ -479,11 +479,11 @@ Update a hook
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization | [default to null] |
 | **id** | **Long**| id of the hook to update | [default to null] |
-| **body** | [**EditHookOption**](../models/EditHookOption.md)|  | [optional] |
+| **body** | [**EditHookOption**](../Models/EditHookOption.md)|  | [optional] |
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -506,11 +506,11 @@ Update a label
 |------------- | ------------- | ------------- | -------------|
 | **org** | **String**| name of the organization | [default to null] |
 | **id** | **Long**| id of the label to edit | [default to null] |
-| **body** | [**EditLabelOption**](../models/EditLabelOption.md)|  | [optional] |
+| **body** | [**EditLabelOption**](../Models/EditLabelOption.md)|  | [optional] |
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -532,11 +532,11 @@ Edit a team
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **Integer**| id of the team to edit | [default to null] |
-| **body** | [**EditTeamOption**](../models/EditTeamOption.md)|  | [optional] |
+| **body** | [**EditTeamOption**](../Models/EditTeamOption.md)|  | [optional] |
 
 ### Return type
 
-[**Team**](../models/Team.md)
+[**Team**](../Models/Team.md)
 
 ### Authorization
 
@@ -561,7 +561,7 @@ Get an organization
 
 ### Return type
 
-[**Organization**](../models/Organization.md)
+[**Organization**](../Models/Organization.md)
 
 ### Authorization
 
@@ -587,7 +587,7 @@ Get list of organizations
 
 ### Return type
 
-[**List**](../models/Organization.md)
+[**List**](../Models/Organization.md)
 
 ### Authorization
 
@@ -613,7 +613,7 @@ Get a hook
 
 ### Return type
 
-[**Hook**](../models/Hook.md)
+[**Hook**](../Models/Hook.md)
 
 ### Authorization
 
@@ -639,7 +639,7 @@ Get a single label
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -664,7 +664,7 @@ Get a team
 
 ### Return type
 
-[**Team**](../models/Team.md)
+[**Team**](../Models/Team.md)
 
 ### Authorization
 
@@ -690,7 +690,7 @@ Get user permissions in organization
 
 ### Return type
 
-[**OrganizationPermissions**](../models/OrganizationPermissions.md)
+[**OrganizationPermissions**](../Models/OrganizationPermissions.md)
 
 ### Authorization
 
@@ -770,7 +770,7 @@ List an organization&#39;s activity feeds
 
 ### Return type
 
-[**List**](../models/Activity.md)
+[**List**](../Models/Activity.md)
 
 ### Authorization
 
@@ -797,7 +797,7 @@ List the organization&#39;s blocked users
 
 ### Return type
 
-[**List**](../models/BlockedUser.md)
+[**List**](../Models/BlockedUser.md)
 
 ### Authorization
 
@@ -823,7 +823,7 @@ List the current user&#39;s organizations
 
 ### Return type
 
-[**List**](../models/Organization.md)
+[**List**](../Models/Organization.md)
 
 ### Authorization
 
@@ -850,7 +850,7 @@ List an organization&#39;s webhooks
 
 ### Return type
 
-[**List**](../models/Hook.md)
+[**List**](../Models/Hook.md)
 
 ### Authorization
 
@@ -877,7 +877,7 @@ List an organization&#39;s labels
 
 ### Return type
 
-[**List**](../models/Label.md)
+[**List**](../Models/Label.md)
 
 ### Authorization
 
@@ -904,7 +904,7 @@ List an organization&#39;s members
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -931,7 +931,7 @@ List an organization&#39;s public members
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -958,7 +958,7 @@ List an organization&#39;s repos
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -986,7 +986,7 @@ List a team&#39;s activity feeds
 
 ### Return type
 
-[**List**](../models/Activity.md)
+[**List**](../Models/Activity.md)
 
 ### Authorization
 
@@ -1012,7 +1012,7 @@ List a particular member of team
 
 ### Return type
 
-[**User**](../models/User.md)
+[**User**](../Models/User.md)
 
 ### Authorization
 
@@ -1039,7 +1039,7 @@ List a team&#39;s members
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -1066,7 +1066,7 @@ List a particular repo of team
 
 ### Return type
 
-[**Repository**](../models/Repository.md)
+[**Repository**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1093,7 +1093,7 @@ List a team&#39;s repos
 
 ### Return type
 
-[**List**](../models/Repository.md)
+[**List**](../Models/Repository.md)
 
 ### Authorization
 
@@ -1120,7 +1120,7 @@ List an organization&#39;s teams
 
 ### Return type
 
-[**List**](../models/Team.md)
+[**List**](../Models/Team.md)
 
 ### Authorization
 
@@ -1147,7 +1147,7 @@ List a user&#39;s organizations
 
 ### Return type
 
-[**List**](../models/Organization.md)
+[**List**](../Models/Organization.md)
 
 ### Authorization
 
@@ -1283,7 +1283,7 @@ Search for teams within an organization
 
 ### Return type
 
-[**teamSearch_200_response**](../models/teamSearch_200_response.md)
+[**teamSearch_200_response**](../Models/teamSearch_200_response.md)
 
 ### Authorization
 

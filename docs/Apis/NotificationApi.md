@@ -24,8 +24,8 @@ List users&#39;s notification threads
 |Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **all** | **Boolean**| If true, show notifications marked as read. Default value is false | [optional] [default to null] |
-| **status-types** | [**List**](../models/String.md)| Show notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread &amp; pinned. | [optional] [default to null] |
-| **subject-type** | [**List**](../models/String.md)| filter notifications by subject type | [optional] [default to null] [enum: issue, pull, commit, repository] |
+| **status-types** | [**List**](../Models/String.md)| Show notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread &amp; pinned. | [optional] [default to null] |
+| **subject-type** | [**List**](../Models/String.md)| filter notifications by subject type | [optional] [default to null] [enum: issue, pull, commit, repository] |
 | **since** | **Date**| Only show notifications updated after the given time. This is a timestamp in RFC 3339 format | [optional] [default to null] |
 | **before** | **Date**| Only show notifications updated before the given time. This is a timestamp in RFC 3339 format | [optional] [default to null] |
 | **page** | **Integer**| page number of results to return (1-based) | [optional] [default to null] |
@@ -33,7 +33,7 @@ List users&#39;s notification threads
 
 ### Return type
 
-[**List**](../models/NotificationThread.md)
+[**List**](../Models/NotificationThread.md)
 
 ### Authorization
 
@@ -57,8 +57,8 @@ List users&#39;s notification threads on a specific repo
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **all** | **Boolean**| If true, show notifications marked as read. Default value is false | [optional] [default to null] |
-| **status-types** | [**List**](../models/String.md)| Show notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread &amp; pinned | [optional] [default to null] |
-| **subject-type** | [**List**](../models/String.md)| filter notifications by subject type | [optional] [default to null] [enum: issue, pull, commit, repository] |
+| **status-types** | [**List**](../Models/String.md)| Show notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread &amp; pinned | [optional] [default to null] |
+| **subject-type** | [**List**](../Models/String.md)| filter notifications by subject type | [optional] [default to null] [enum: issue, pull, commit, repository] |
 | **since** | **Date**| Only show notifications updated after the given time. This is a timestamp in RFC 3339 format | [optional] [default to null] |
 | **before** | **Date**| Only show notifications updated before the given time. This is a timestamp in RFC 3339 format | [optional] [default to null] |
 | **page** | **Integer**| page number of results to return (1-based) | [optional] [default to null] |
@@ -66,7 +66,7 @@ List users&#39;s notification threads on a specific repo
 
 ### Return type
 
-[**List**](../models/NotificationThread.md)
+[**List**](../Models/NotificationThread.md)
 
 ### Authorization
 
@@ -91,7 +91,7 @@ Get notification thread by ID
 
 ### Return type
 
-[**NotificationThread**](../models/NotificationThread.md)
+[**NotificationThread**](../Models/NotificationThread.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**NotificationCount**](../models/NotificationCount.md)
+[**NotificationCount**](../Models/NotificationCount.md)
 
 ### Authorization
 
@@ -136,12 +136,12 @@ Mark notification threads as read, pinned or unread
 |------------- | ------------- | ------------- | -------------|
 | **last\_read\_at** | **Date**| Describes the last point that notifications were checked. Anything updated since this time will not be updated. | [optional] [default to null] |
 | **all** | **String**| If true, mark all notifications on this repo. Default value is false | [optional] [default to null] |
-| **status-types** | [**List**](../models/String.md)| Mark notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread. | [optional] [default to null] |
+| **status-types** | [**List**](../Models/String.md)| Mark notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread. | [optional] [default to null] |
 | **to-status** | **String**| Status to mark notifications as, Defaults to read. | [optional] [default to null] |
 
 ### Return type
 
-[**List**](../models/NotificationThread.md)
+[**List**](../Models/NotificationThread.md)
 
 ### Authorization
 
@@ -165,13 +165,13 @@ Mark notification threads as read, pinned or unread on a specific repo
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **all** | **String**| If true, mark all notifications on this repo. Default value is false | [optional] [default to null] |
-| **status-types** | [**List**](../models/String.md)| Mark notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread. | [optional] [default to null] |
+| **status-types** | [**List**](../Models/String.md)| Mark notifications with the provided status types. Options are: unread, read and/or pinned. Defaults to unread. | [optional] [default to null] |
 | **to-status** | **String**| Status to mark notifications as. Defaults to read. | [optional] [default to null] |
 | **last\_read\_at** | **Date**| Describes the last point that notifications were checked. Anything updated since this time will not be updated. | [optional] [default to null] |
 
 ### Return type
 
-[**List**](../models/NotificationThread.md)
+[**List**](../Models/NotificationThread.md)
 
 ### Authorization
 
@@ -197,7 +197,7 @@ Mark notification thread as read by ID
 
 ### Return type
 
-[**NotificationThread**](../models/NotificationThread.md)
+[**NotificationThread**](../Models/NotificationThread.md)
 
 ### Authorization
 

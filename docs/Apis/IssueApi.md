@@ -86,11 +86,11 @@ Add a label to an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **body** | [**IssueLabelsOption**](../models/IssueLabelsOption.md)|  | [optional] |
+| **body** | [**IssueLabelsOption**](../Models/IssueLabelsOption.md)|  | [optional] |
 
 ### Return type
 
-[**List**](../models/Label.md)
+[**List**](../Models/Label.md)
 
 ### Authorization
 
@@ -142,11 +142,11 @@ Add tracked time to a issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **body** | [**AddTimeOption**](../models/AddTimeOption.md)|  | [optional] |
+| **body** | [**AddTimeOption**](../Models/AddTimeOption.md)|  | [optional] |
 
 ### Return type
 
-[**TrackedTime**](../models/TrackedTime.md)
+[**TrackedTime**](../Models/TrackedTime.md)
 
 ### Authorization
 
@@ -173,7 +173,7 @@ Check if user is subscribed to an issue
 
 ### Return type
 
-[**WatchInfo**](../models/WatchInfo.md)
+[**WatchInfo**](../Models/WatchInfo.md)
 
 ### Authorization
 
@@ -224,11 +224,11 @@ Add a comment to an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **body** | [**CreateIssueCommentOption**](../models/CreateIssueCommentOption.md)|  | [optional] |
+| **body** | [**CreateIssueCommentOption**](../Models/CreateIssueCommentOption.md)|  | [optional] |
 
 ### Return type
 
-[**Comment**](../models/Comment.md)
+[**Comment**](../Models/Comment.md)
 
 ### Authorization
 
@@ -251,11 +251,11 @@ Create an issue. If using deadline only the date will be taken into account, and
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateIssueOption**](../models/CreateIssueOption.md)|  | [optional] |
+| **body** | [**CreateIssueOption**](../Models/CreateIssueOption.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -284,7 +284,7 @@ Create an issue attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -308,11 +308,11 @@ Block the issue given in the body by the issue in path
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **String**| index of the issue | [default to null] |
-| **body** | [**IssueMeta**](../models/IssueMeta.md)|  | [optional] |
+| **body** | [**IssueMeta**](../Models/IssueMeta.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -341,7 +341,7 @@ Create a comment attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -365,11 +365,11 @@ Make the issue in the url depend on the issue in the form.
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **String**| index of the issue | [default to null] |
-| **body** | [**IssueMeta**](../models/IssueMeta.md)|  | [optional] |
+| **body** | [**IssueMeta**](../Models/IssueMeta.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -392,11 +392,11 @@ Create a label
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateLabelOption**](../models/CreateLabelOption.md)|  | [optional] |
+| **body** | [**CreateLabelOption**](../Models/CreateLabelOption.md)|  | [optional] |
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -419,11 +419,11 @@ Create a milestone
 |------------- | ------------- | ------------- | -------------|
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
-| **body** | [**CreateMilestoneOption**](../models/CreateMilestoneOption.md)|  | [optional] |
+| **body** | [**CreateMilestoneOption**](../Models/CreateMilestoneOption.md)|  | [optional] |
 
 ### Return type
 
-[**Milestone**](../models/Milestone.md)
+[**Milestone**](../Models/Milestone.md)
 
 ### Authorization
 
@@ -529,7 +529,7 @@ Remove a reaction from a comment of an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the comment to edit | [default to null] |
-| **content** | [**EditReactionOption**](../models/EditReactionOption.md)|  | [optional] |
+| **content** | [**EditReactionOption**](../Models/EditReactionOption.md)|  | [optional] |
 
 ### Return type
 
@@ -613,7 +613,7 @@ Remove a reaction from an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **content** | [**EditReactionOption**](../models/EditReactionOption.md)|  | [optional] |
+| **content** | [**EditReactionOption**](../Models/EditReactionOption.md)|  | [optional] |
 
 ### Return type
 
@@ -778,11 +778,11 @@ Edit a comment
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the comment to edit | [default to null] |
-| **body** | [**EditIssueCommentOption**](../models/EditIssueCommentOption.md)|  | [optional] |
+| **body** | [**EditIssueCommentOption**](../Models/EditIssueCommentOption.md)|  | [optional] |
 
 ### Return type
 
-[**Comment**](../models/Comment.md)
+[**Comment**](../Models/Comment.md)
 
 ### Authorization
 
@@ -807,11 +807,11 @@ Edit a comment
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Integer**| this parameter is ignored | [default to null] |
 | **id** | **Long**| id of the comment to edit | [default to null] |
-| **body** | [**EditIssueCommentOption**](../models/EditIssueCommentOption.md)|  | [optional] |
+| **body** | [**EditIssueCommentOption**](../Models/EditIssueCommentOption.md)|  | [optional] |
 
 ### Return type
 
-[**Comment**](../models/Comment.md)
+[**Comment**](../Models/Comment.md)
 
 ### Authorization
 
@@ -835,11 +835,11 @@ Edit an issue. If using deadline only the date will be taken into account, and t
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue to edit | [default to null] |
-| **body** | [**EditIssueOption**](../models/EditIssueOption.md)|  | [optional] |
+| **body** | [**EditIssueOption**](../Models/EditIssueOption.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -864,11 +864,11 @@ Edit an issue attachment
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
 | **attachment\_id** | **Long**| id of the attachment to edit | [default to null] |
-| **body** | [**EditAttachmentOptions**](../models/EditAttachmentOptions.md)|  | [optional] |
+| **body** | [**EditAttachmentOptions**](../Models/EditAttachmentOptions.md)|  | [optional] |
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -893,11 +893,11 @@ Edit a comment attachment
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the comment | [default to null] |
 | **attachment\_id** | **Long**| id of the attachment to edit | [default to null] |
-| **body** | [**EditAttachmentOptions**](../models/EditAttachmentOptions.md)|  | [optional] |
+| **body** | [**EditAttachmentOptions**](../Models/EditAttachmentOptions.md)|  | [optional] |
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -921,11 +921,11 @@ Set an issue deadline. If set to null, the deadline is deleted. If using deadlin
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue to create or update a deadline on | [default to null] |
-| **body** | [**EditDeadlineOption**](../models/EditDeadlineOption.md)|  | [optional] |
+| **body** | [**EditDeadlineOption**](../Models/EditDeadlineOption.md)|  | [optional] |
 
 ### Return type
 
-[**IssueDeadline**](../models/IssueDeadline.md)
+[**IssueDeadline**](../Models/IssueDeadline.md)
 
 ### Authorization
 
@@ -949,11 +949,11 @@ Update a label
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the label to edit | [default to null] |
-| **body** | [**EditLabelOption**](../models/EditLabelOption.md)|  | [optional] |
+| **body** | [**EditLabelOption**](../Models/EditLabelOption.md)|  | [optional] |
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -977,11 +977,11 @@ Update a milestone
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **String**| the milestone to edit, identified by ID and if not available by name | [default to null] |
-| **body** | [**EditMilestoneOption**](../models/EditMilestoneOption.md)|  | [optional] |
+| **body** | [**EditMilestoneOption**](../Models/EditMilestoneOption.md)|  | [optional] |
 
 ### Return type
 
-[**Milestone**](../models/Milestone.md)
+[**Milestone**](../Models/Milestone.md)
 
 ### Authorization
 
@@ -1008,7 +1008,7 @@ Get a comment
 
 ### Return type
 
-[**Comment**](../models/Comment.md)
+[**Comment**](../Models/Comment.md)
 
 ### Authorization
 
@@ -1035,7 +1035,7 @@ Get a list of reactions from a comment of an issue
 
 ### Return type
 
-[**List**](../models/Reaction.md)
+[**List**](../Models/Reaction.md)
 
 ### Authorization
 
@@ -1064,7 +1064,7 @@ List all comments on an issue
 
 ### Return type
 
-[**List**](../models/Comment.md)
+[**List**](../Models/Comment.md)
 
 ### Authorization
 
@@ -1095,7 +1095,7 @@ List all comments and events on an issue
 
 ### Return type
 
-[**List**](../models/TimelineComment.md)
+[**List**](../Models/TimelineComment.md)
 
 ### Authorization
 
@@ -1122,7 +1122,7 @@ Get an issue
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1150,7 +1150,7 @@ Get an issue attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -1178,7 +1178,7 @@ Get a comment attachment
 
 ### Return type
 
-[**Attachment**](../models/Attachment.md)
+[**Attachment**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -1207,7 +1207,7 @@ Get a list reactions of an issue
 
 ### Return type
 
-[**List**](../models/Reaction.md)
+[**List**](../Models/Reaction.md)
 
 ### Authorization
 
@@ -1234,7 +1234,7 @@ Get a single label
 
 ### Return type
 
-[**Label**](../models/Label.md)
+[**Label**](../Models/Label.md)
 
 ### Authorization
 
@@ -1261,7 +1261,7 @@ Get an issue&#39;s labels
 
 ### Return type
 
-[**List**](../models/Label.md)
+[**List**](../Models/Label.md)
 
 ### Authorization
 
@@ -1288,7 +1288,7 @@ Get a milestone
 
 ### Return type
 
-[**Milestone**](../models/Milestone.md)
+[**Milestone**](../Models/Milestone.md)
 
 ### Authorization
 
@@ -1318,7 +1318,7 @@ Get all of a repository&#39;s opened milestones
 
 ### Return type
 
-[**List**](../models/Milestone.md)
+[**List**](../Models/Milestone.md)
 
 ### Authorization
 
@@ -1348,7 +1348,7 @@ List all comments in a repository
 
 ### Return type
 
-[**List**](../models/Comment.md)
+[**List**](../Models/Comment.md)
 
 ### Authorization
 
@@ -1377,7 +1377,7 @@ List issues that are blocked by this issue
 
 ### Return type
 
-[**List**](../models/Issue.md)
+[**List**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1404,7 +1404,7 @@ List issue&#39;s attachments
 
 ### Return type
 
-[**List**](../models/Attachment.md)
+[**List**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -1431,7 +1431,7 @@ List comment&#39;s attachments
 
 ### Return type
 
-[**List**](../models/Attachment.md)
+[**List**](../Models/Attachment.md)
 
 ### Authorization
 
@@ -1460,7 +1460,7 @@ List an issue&#39;s dependencies, i.e all issues that block this issue.
 
 ### Return type
 
-[**List**](../models/Issue.md)
+[**List**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1498,7 +1498,7 @@ List a repository&#39;s issues
 
 ### Return type
 
-[**List**](../models/Issue.md)
+[**List**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1526,7 +1526,7 @@ Get all of a repository&#39;s labels
 
 ### Return type
 
-[**List**](../models/Label.md)
+[**List**](../Models/Label.md)
 
 ### Authorization
 
@@ -1550,11 +1550,11 @@ Add a reaction to a comment of an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **id** | **Long**| id of the comment to edit | [default to null] |
-| **content** | [**EditReactionOption**](../models/EditReactionOption.md)|  | [optional] |
+| **content** | [**EditReactionOption**](../Models/EditReactionOption.md)|  | [optional] |
 
 ### Return type
 
-[**Reaction**](../models/Reaction.md)
+[**Reaction**](../Models/Reaction.md)
 
 ### Authorization
 
@@ -1578,11 +1578,11 @@ Add a reaction to an issue
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **content** | [**EditReactionOption**](../models/EditReactionOption.md)|  | [optional] |
+| **content** | [**EditReactionOption**](../Models/EditReactionOption.md)|  | [optional] |
 
 ### Return type
 
-[**Reaction**](../models/Reaction.md)
+[**Reaction**](../Models/Reaction.md)
 
 ### Authorization
 
@@ -1606,11 +1606,11 @@ Unblock the issue given in the body by the issue in path
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **String**| index of the issue | [default to null] |
-| **body** | [**IssueMeta**](../models/IssueMeta.md)|  | [optional] |
+| **body** | [**IssueMeta**](../Models/IssueMeta.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1634,11 +1634,11 @@ Remove an issue dependency
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **String**| index of the issue | [default to null] |
-| **body** | [**IssueMeta**](../models/IssueMeta.md)|  | [optional] |
+| **body** | [**IssueMeta**](../Models/IssueMeta.md)|  | [optional] |
 
 ### Return type
 
-[**Issue**](../models/Issue.md)
+[**Issue**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1690,11 +1690,11 @@ Replace an issue&#39;s labels
 | **owner** | **String**| owner of the repo | [default to null] |
 | **repo** | **String**| name of the repo | [default to null] |
 | **index** | **Long**| index of the issue | [default to null] |
-| **body** | [**IssueLabelsOption**](../models/IssueLabelsOption.md)|  | [optional] |
+| **body** | [**IssueLabelsOption**](../Models/IssueLabelsOption.md)|  | [optional] |
 
 ### Return type
 
-[**List**](../models/Label.md)
+[**List**](../Models/Label.md)
 
 ### Authorization
 
@@ -1762,7 +1762,7 @@ Search for issues across the repositories that the user has access to
 
 ### Return type
 
-[**List**](../models/Issue.md)
+[**List**](../Models/Issue.md)
 
 ### Authorization
 
@@ -1845,7 +1845,7 @@ Get users who subscribed on an issue.
 
 ### Return type
 
-[**List**](../models/User.md)
+[**List**](../Models/User.md)
 
 ### Authorization
 
@@ -1877,7 +1877,7 @@ List an issue&#39;s tracked times
 
 ### Return type
 
-[**List**](../models/TrackedTime.md)
+[**List**](../Models/TrackedTime.md)
 
 ### Authorization
 
